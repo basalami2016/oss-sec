@@ -12,7 +12,7 @@
 
 	<groupId>io.oss</groupId>
 	<artifactId>oss-sec</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>oss-sec</name>
 	<description>Open-Source Software Supply Chain Security </description>
 
