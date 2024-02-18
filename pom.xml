@@ -21,9 +21,21 @@
 		<maven.compiler.target>17</maven.compiler.target>
 	</properties>
 
-	<dependencies>
+	<dependencies>	
+		
+               <dependency>
+                 <groupId>org.owasp.esapi</groupId>
+                 <artifactId>esapi</artifactId>
+                 <version>2.2.3.1</version>
+               </dependency>
 
-		<dependency>
+	       <dependency>
+                 <groupId>org.owasp.antisamy</groupId>
+                 <artifactId>antisamy</artifactId>
+                 <version>1.7.3</version>
+               </dependency>
+		
+	       <dependency>
                   <groupId>ch.qos.logback</groupId>
                   <artifactId>logback-core</artifactId>
                   <version>1.4.13</version>
