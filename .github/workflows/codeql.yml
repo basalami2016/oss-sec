@@ -53,12 +53,10 @@ jobs:
       uses: actions/setup-java@v4 # see 'https://github.com/actions/setup-java?tab=readme-ov-file#setup-java'
       with:
         distribution: 'corretto' # See 'Supported distributions' for available options
-        java-version: '17'
-        java-package: 'jdk'
-	architecture: 'x64'
-	cache: 'maven'
-
-    # Initializes the CodeQL tools for scanning.
+        java-version: '17'      
+        java-package: 'jdk'	
+ 
+     # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v3
       with:
