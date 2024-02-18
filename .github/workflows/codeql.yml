@@ -54,6 +54,9 @@ jobs:
       with:
         distribution: 'corretto' # See 'Supported distributions' for available options
         java-version: '17'
+        java-package: 'jdk'
+			  architecture: 'x64'
+			  cache: 'maven'
 
     # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
